@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "MyELT Automation Suite">
+    
+    <test name = "Test1" preserve-order="true">
+        <classes> 
+           <class name = "com.demo.qa.testcases.ALoginPageTest"></class>
+           <class name = "com.demo.qa.testcases.BHomePageTest"></class>
+           <class name = "com.demo.qa.testcases.CStudentPageTest"></class>
+        </classes>
+    </test>
+</suite>

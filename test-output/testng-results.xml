@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="9" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyELT Automation Suite" duration-ms="210542" started-at="2019-11-09T07:23:11Z" finished-at="2019-11-09T07:26:41Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="210542" started-at="2019-11-09T07:23:11Z" finished-at="2019-11-09T07:26:41Z">
+      <class name="com.demo.qa.testcases.CStudentPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.CStudentPageTest@1a968a59]" name="setup" is-config="true" duration-ms="18645" started-at="2019-11-09T07:23:41Z" finished-at="2019-11-09T07:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CreateAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.demo.qa.testcases.CStudentPageTest@1a968a59]" name="CreateAccount" duration-ms="5364" started-at="2019-11-09T07:24:00Z" data-provider="getData" finished-at="2019-11-09T07:24:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.29_r1_Anmol_S1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Data]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[anmolaggarwal@qainfotech.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[anmolaggarwal@qainfotech.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.CStudentPageTest@1a968a59]" name="setup" is-config="true" duration-ms="19596" started-at="2019-11-09T07:24:32Z" finished-at="2019-11-09T07:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="Check_Is_Account_Created(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.demo.qa.testcases.CStudentPageTest@1a968a59]" name="Check_Is_Account_Created" duration-ms="30105" started-at="2019-11-09T07:24:51Z" data-provider="getData" finished-at="2019-11-09T07:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.29_r1_Anmol_S1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Data]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[anmolaggarwal@qainfotech.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[anmolaggarwal@qainfotech.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'errorMessage')]//strong"}
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TEMHAD3', ip: '192.168.43.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ANMOLA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55439}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86fd877bd917df31b8f3eb9071a57849
+*** Element info: {Using=xpath, value=//div[contains(@class,'errorMessage')]//strong}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'errorMessage')]//strong"}
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TEMHAD3', ip: '192.168.43.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ANMOLA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55439}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86fd877bd917df31b8f3eb9071a57849
+*** Element info: {Using=xpath, value=//div[contains(@class,'errorMessage')]//strong}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.getText(Unknown Source)
+at com.demo.qa.pages.StudentsPage.GetAccountUserName(StudentsPage.java:134)
+at com.demo.qa.testcases.CStudentPageTest.Check_Is_Account_Created(CStudentPageTest.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Is_Account_Created -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.CStudentPageTest@1a968a59]" name="setup" is-config="true" duration-ms="17763" started-at="2019-11-09T07:25:54Z" finished-at="2019-11-09T07:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="Account_Creation_Dialog()[pri:3, instance:com.demo.qa.testcases.CStudentPageTest@1a968a59]" name="Account_Creation_Dialog" duration-ms="30061" started-at="2019-11-09T07:26:11Z" finished-at="2019-11-09T07:26:41Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//i[@title='Close']"}
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TEMHAD3', ip: '192.168.43.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ANMOLA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0e352845a57d5ee390d2a81b746f64da
+*** Element info: {Using=xpath, value=//i[@title='Close']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//i[@title='Close']"}
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TEMHAD3', ip: '192.168.43.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ANMOLA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0e352845a57d5ee390d2a81b746f64da
+*** Element info: {Using=xpath, value=//i[@title='Close']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+at com.demo.qa.Utility.TestUtil.Is_Element_Displayed(TestUtil.java:52)
+at com.demo.qa.pages.StudentsPage.Is_Close_Icon_Displayed(StudentsPage.java:139)
+at com.demo.qa.testcases.CStudentPageTest.Account_Creation_Dialog(CStudentPageTest.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Account_Creation_Dialog -->
+      </class> <!-- com.demo.qa.testcases.CStudentPageTest -->
+      <class name="com.demo.qa.testcases.BHomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@548e7350]" name="setup" is-config="true" duration-ms="13991" started-at="2019-11-09T07:23:25Z" finished-at="2019-11-09T07:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Validate_Page_Title()[pri:1, instance:com.demo.qa.testcases.BHomePageTest@548e7350]" name="Validate_Page_Title" duration-ms="26" started-at="2019-11-09T07:23:39Z" finished-at="2019-11-09T07:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Page_Title -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@548e7350]" name="TearDown" is-config="true" duration-ms="880" started-at="2019-11-09T07:23:39Z" finished-at="2019-11-09T07:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@548e7350]" name="setup" is-config="true" duration-ms="13777" started-at="2019-11-09T07:24:17Z" finished-at="2019-11-09T07:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Is_Student_Tab_Displayed()[pri:2, instance:com.demo.qa.testcases.BHomePageTest@548e7350]" name="Is_Student_Tab_Displayed" duration-ms="79" started-at="2019-11-09T07:24:31Z" finished-at="2019-11-09T07:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Is_Student_Tab_Displayed -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@548e7350]" name="TearDown" is-config="true" duration-ms="851" started-at="2019-11-09T07:24:31Z" finished-at="2019-11-09T07:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@548e7350]" name="setup" is-config="true" duration-ms="15058" started-at="2019-11-09T07:25:35Z" finished-at="2019-11-09T07:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Open_Students_Tab()[pri:3, instance:com.demo.qa.testcases.BHomePageTest@548e7350]" name="Open_Students_Tab" duration-ms="2576" started-at="2019-11-09T07:25:50Z" finished-at="2019-11-09T07:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Students_Tab -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@548e7350]" name="TearDown" is-config="true" duration-ms="1140" started-at="2019-11-09T07:25:53Z" finished-at="2019-11-09T07:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.demo.qa.testcases.BHomePageTest -->
+      <class name="com.demo.qa.testcases.ALoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@5442a311]" name="setup" is-config="true" duration-ms="12800" started-at="2019-11-09T07:23:11Z" finished-at="2019-11-09T07:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="IsPageLogoDisplayed()[pri:1, instance:com.demo.qa.testcases.ALoginPageTest@5442a311]" name="IsPageLogoDisplayed" duration-ms="184" started-at="2019-11-09T07:23:24Z" finished-at="2019-11-09T07:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsPageLogoDisplayed -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@5442a311]" name="TearDown" is-config="true" duration-ms="1335" started-at="2019-11-09T07:23:24Z" finished-at="2019-11-09T07:23:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@5442a311]" name="setup" is-config="true" duration-ms="10428" started-at="2019-11-09T07:24:05Z" finished-at="2019-11-09T07:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Validate_Page_Title()[pri:2, instance:com.demo.qa.testcases.ALoginPageTest@5442a311]" name="Validate_Page_Title" duration-ms="23" started-at="2019-11-09T07:24:16Z" finished-at="2019-11-09T07:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Page_Title -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@5442a311]" name="TearDown" is-config="true" duration-ms="1143" started-at="2019-11-09T07:24:16Z" finished-at="2019-11-09T07:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@5442a311]" name="setup" is-config="true" duration-ms="9286" started-at="2019-11-09T07:25:21Z" finished-at="2019-11-09T07:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:3, instance:com.demo.qa.testcases.ALoginPageTest@5442a311]" name="Login" duration-ms="3488" started-at="2019-11-09T07:25:31Z" finished-at="2019-11-09T07:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@5442a311]" name="TearDown" is-config="true" duration-ms="766" started-at="2019-11-09T07:25:34Z" finished-at="2019-11-09T07:25:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.demo.qa.testcases.ALoginPageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- MyELT Automation Suite -->
+</testng-results>
