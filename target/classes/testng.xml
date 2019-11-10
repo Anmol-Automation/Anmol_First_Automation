@@ -2,6 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name = "MyELT Automation Suite">
+
+ <listeners>
+      <listener class-name="com.demo.qa.ExtentReportListener.ExtentReporterNG"></listener>
+ </listeners>
+ 
+ <!-- -This listener will listen to all the classes mentioned in the test -->
     
     <test name = "Test1" preserve-order="true">
         <classes> 

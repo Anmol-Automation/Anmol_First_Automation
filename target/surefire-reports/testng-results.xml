@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="152978" started-at="2019-11-09T07:38:36Z" finished-at="2019-11-09T07:41:09Z">
+  <suite name="Command line suite" duration-ms="140992" started-at="2019-11-09T13:17:47Z" finished-at="2019-11-09T13:20:08Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="152978" started-at="2019-11-09T07:38:36Z" finished-at="2019-11-09T07:41:09Z">
+    <test name="Command line test" duration-ms="140992" started-at="2019-11-09T13:17:47Z" finished-at="2019-11-09T13:20:08Z">
       <class name="com.demo.qa.testcases.CStudentPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.CStudentPageTest@26ba2a48]" name="setup" is-config="true" duration-ms="25300" started-at="2019-11-09T07:39:15Z" finished-at="2019-11-09T07:39:41Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.CStudentPageTest@26ba2a48]" name="setup" is-config="true" duration-ms="17214" started-at="2019-11-09T13:18:31Z" finished-at="2019-11-09T13:18:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CreateAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.demo.qa.testcases.CStudentPageTest@26ba2a48]" name="CreateAccount" duration-ms="5530" started-at="2019-11-09T07:39:41Z" data-provider="getData" finished-at="2019-11-09T07:39:46Z">
+        <test-method status="PASS" signature="CreateAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.demo.qa.testcases.CStudentPageTest@26ba2a48]" name="CreateAccount" duration-ms="3804" started-at="2019-11-09T13:18:48Z" data-provider="getData" finished-at="2019-11-09T13:18:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[4.29_r1_Anmol_S1_Prod]]>
+                <![CDATA[4.29_r1_Anmol_S1_Prod1]]>
               </value>
             </param>
             <param index="1">
@@ -57,83 +57,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateAccount -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.CStudentPageTest@26ba2a48]" name="TearDown" is-config="true" duration-ms="692" started-at="2019-11-09T07:39:46Z" finished-at="2019-11-09T07:39:47Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.CStudentPageTest@26ba2a48]" name="TearDown" is-config="true" duration-ms="631" started-at="2019-11-09T13:18:52Z" finished-at="2019-11-09T13:18:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.demo.qa.testcases.CStudentPageTest -->
       <class name="com.demo.qa.testcases.BHomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="setup" is-config="true" duration-ms="20195" started-at="2019-11-09T07:38:53Z" finished-at="2019-11-09T07:39:13Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="setup" is-config="true" duration-ms="21548" started-at="2019-11-09T13:18:06Z" finished-at="2019-11-09T13:18:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Validate_Page_Title()[pri:1, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="Validate_Page_Title" duration-ms="18" started-at="2019-11-09T07:39:13Z" finished-at="2019-11-09T07:39:13Z">
+        <test-method status="PASS" signature="Validate_Page_Title()[pri:1, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="Validate_Page_Title" duration-ms="8" started-at="2019-11-09T13:18:28Z" finished-at="2019-11-09T13:18:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Page_Title -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="TearDown" is-config="true" duration-ms="775" started-at="2019-11-09T07:39:13Z" finished-at="2019-11-09T07:39:14Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="TearDown" is-config="true" duration-ms="618" started-at="2019-11-09T13:18:28Z" finished-at="2019-11-09T13:18:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="setup" is-config="true" duration-ms="18232" started-at="2019-11-09T07:40:08Z" finished-at="2019-11-09T07:40:26Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="setup" is-config="true" duration-ms="14936" started-at="2019-11-09T13:19:05Z" finished-at="2019-11-09T13:19:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Is_Student_Tab_Displayed()[pri:2, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="Is_Student_Tab_Displayed" duration-ms="90" started-at="2019-11-09T07:40:26Z" finished-at="2019-11-09T07:40:26Z">
+        <test-method status="PASS" signature="Is_Student_Tab_Displayed()[pri:2, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="Is_Student_Tab_Displayed" duration-ms="34" started-at="2019-11-09T13:19:20Z" finished-at="2019-11-09T13:19:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Is_Student_Tab_Displayed -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="TearDown" is-config="true" duration-ms="676" started-at="2019-11-09T07:40:26Z" finished-at="2019-11-09T07:40:27Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="TearDown" is-config="true" duration-ms="606" started-at="2019-11-09T13:19:20Z" finished-at="2019-11-09T13:19:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="setup" is-config="true" duration-ms="20411" started-at="2019-11-09T07:40:45Z" finished-at="2019-11-09T07:41:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="setup" is-config="true" duration-ms="18272" started-at="2019-11-09T13:19:44Z" finished-at="2019-11-09T13:20:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Open_Students_Tab()[pri:3, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="Open_Students_Tab" duration-ms="2588" started-at="2019-11-09T07:41:06Z" finished-at="2019-11-09T07:41:08Z">
+        <test-method status="PASS" signature="Open_Students_Tab()[pri:3, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="Open_Students_Tab" duration-ms="4589" started-at="2019-11-09T13:20:03Z" finished-at="2019-11-09T13:20:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open_Students_Tab -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="TearDown" is-config="true" duration-ms="683" started-at="2019-11-09T07:41:08Z" finished-at="2019-11-09T07:41:09Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.BHomePageTest@42d3bd8b]" name="TearDown" is-config="true" duration-ms="633" started-at="2019-11-09T13:20:07Z" finished-at="2019-11-09T13:20:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.demo.qa.testcases.BHomePageTest -->
       <class name="com.demo.qa.testcases.ALoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="setup" is-config="true" duration-ms="15656" started-at="2019-11-09T07:38:36Z" finished-at="2019-11-09T07:38:52Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="setup" is-config="true" duration-ms="18336" started-at="2019-11-09T13:17:47Z" finished-at="2019-11-09T13:18:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="IsPageLogoDisplayed()[pri:1, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="IsPageLogoDisplayed" duration-ms="126" started-at="2019-11-09T07:38:52Z" finished-at="2019-11-09T07:38:52Z">
+        <test-method status="PASS" signature="IsPageLogoDisplayed()[pri:1, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="IsPageLogoDisplayed" duration-ms="114" started-at="2019-11-09T13:18:05Z" finished-at="2019-11-09T13:18:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IsPageLogoDisplayed -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="TearDown" is-config="true" duration-ms="703" started-at="2019-11-09T07:38:52Z" finished-at="2019-11-09T07:38:53Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="TearDown" is-config="true" duration-ms="667" started-at="2019-11-09T13:18:05Z" finished-at="2019-11-09T13:18:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="setup" is-config="true" duration-ms="20109" started-at="2019-11-09T07:39:47Z" finished-at="2019-11-09T07:40:07Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="setup" is-config="true" duration-ms="11678" started-at="2019-11-09T13:18:52Z" finished-at="2019-11-09T13:19:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Validate_Page_Title()[pri:2, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="Validate_Page_Title" duration-ms="27" started-at="2019-11-09T07:40:07Z" finished-at="2019-11-09T07:40:07Z">
+        <test-method status="PASS" signature="Validate_Page_Title()[pri:2, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="Validate_Page_Title" duration-ms="11" started-at="2019-11-09T13:19:04Z" finished-at="2019-11-09T13:19:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Page_Title -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="TearDown" is-config="true" duration-ms="882" started-at="2019-11-09T07:40:07Z" finished-at="2019-11-09T07:40:08Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="TearDown" is-config="true" duration-ms="1342" started-at="2019-11-09T13:19:04Z" finished-at="2019-11-09T13:19:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="setup" is-config="true" duration-ms="12095" started-at="2019-11-09T07:40:27Z" finished-at="2019-11-09T07:40:39Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="setup" is-config="true" duration-ms="15635" started-at="2019-11-09T13:19:21Z" finished-at="2019-11-09T13:19:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login()[pri:3, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="Login" duration-ms="5671" started-at="2019-11-09T07:40:39Z" finished-at="2019-11-09T07:40:45Z">
+        <test-method status="PASS" signature="Login()[pri:3, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="Login" duration-ms="7175" started-at="2019-11-09T13:19:37Z" finished-at="2019-11-09T13:19:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="TearDown" is-config="true" duration-ms="729" started-at="2019-11-09T07:40:45Z" finished-at="2019-11-09T07:40:45Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.demo.qa.testcases.ALoginPageTest@dfd3711]" name="TearDown" is-config="true" duration-ms="638" started-at="2019-11-09T13:19:44Z" finished-at="2019-11-09T13:19:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
